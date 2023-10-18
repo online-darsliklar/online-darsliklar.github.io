@@ -1,2 +1,3 @@
-# online-darsliklar.github.io
-Real loyihalarni natijalarini tekshirish uchun domen va hosting
+# BlueCollar Web Design
+### Loyihani boshidan oxirigacha tayyorlashda ishlatiladigan resurslar
+
