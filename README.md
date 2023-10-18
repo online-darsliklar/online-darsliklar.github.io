@@ -1,3 +1,6 @@
+### Loyihaga 18.10.2023 sanada start berildi
+### Author: Salohiddin Abruyev
+
 # BlueCollar Web Design
 ### Loyihani boshidan oxirigacha tayyorlashda ishlatiladigan resurslar
 
