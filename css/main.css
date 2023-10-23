@@ -1,3 +1,5 @@
+@import "colors.css";
+@import "variables.css";
 *,
 *::before,
 *::after {
@@ -6,4 +8,35 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header > information start */
+
+.header {
+    width: 100%;
+}
+
+.information {
+    width: 100%;
+    height: auto;
+    background-color: var(--light-6);
+}
+
+.information .info-box {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information .info-box .desc {
+    font: var(--desc-font);
+    letter-spacing: var(--desc-ls);
+    text-align: left;
 }
