@@ -96,3 +96,213 @@ a {
     font: var(--desc-font);
     color: var(--kulrang);
 }
+
+
+/* header > information start */
+
+
+/* nav.navbar start */
+
+nav.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.navbar .navbar-box {
+    width: 100%;
+    height: 88px;
+    background-color: var(--sariq-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 20px;
+}
+
+.navbar .navbar-box .lists {
+    width: 643.22px;
+    height: 70px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-box .lists .item {
+    text-decoration: none;
+    color: var(--qora-2);
+    font: var(--desc-font);
+    font-size: 19px !important;
+}
+
+.link-active {
+    color: var(--oq) !important;
+}
+
+.navbar .navbar-box .btn-any {
+    background-color: var(--darkblue);
+    font: var(--contact-h);
+    color: var(--light);
+    padding: 19px 42px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/* nav.navbar end */
+
+
+/* hero start */
+
+.hero {
+    width: 100%;
+    height: 813px;
+    background: url("../img/hero-bg.png") no-repeat center;
+    background-size: cover;
+    padding-top: 260px;
+    position: relative;
+    top: -58px;
+}
+
+.hero .hero-box {
+    width: 720px;
+    height: 332.984px;
+    padding-top: 10px;
+}
+
+.hero .hero-box p.description {
+    width: 662px;
+    height: 29px;
+    font: var(--desc-font);
+    font-size: 18px !important;
+    background-color: var(--light-20);
+    color: var(--oq);
+    padding-left: 60px;
+    position: relative;
+}
+
+.hero .hero-box p.description::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 30px;
+    height: 29px;
+    background: url("../img/settings-icon.svg") no-repeat;
+}
+
+.hero .hero-box h2.big-title {
+    font: var(--big-title);
+    color: var(--light);
+    letter-spacing: 1.2px;
+    margin: 31px 0 29px;
+}
+
+.hero .hero-box .btn-s {
+    font: var(--btn-s);
+    letter-spacing: 0.36px;
+    padding: 19px 42px;
+    background: var(--sariq-1);
+    color: var(--darkblue);
+    border: 2px solid var(--sariq-1);
+}
+
+
+/* hero end */
+
+
+/* welcome start */
+
+.welcome {
+    width: 100%;
+    height: 861px;
+    padding: 140px 0;
+}
+
+.welcome-box {
+    width: 100%;
+    display: flex;
+}
+
+.welcome-box .welcome-right {
+    margin-left: 50px;
+    padding: 11px 0;
+}
+
+.wel-desc {
+    padding-left: 53px;
+    padding-right: 20px;
+    display: inline-block;
+    font: var(--desc-font);
+    font-size: 18px !important;
+    color: var(--darkblue);
+    background: var(--light) url("../img/bluecollar-icon.svg") no-repeat;
+    background-position-x: 20px;
+    background-size: 23px 27px;
+}
+
+.title {
+    font: var(--title);
+    letter-spacing: var(--desc-ls);
+    color: var(--darkblue);
+    margin: 22px 0 12px;
+}
+
+.welcome-box .welcome-right p.desc {
+    font: var(--desc-font);
+    font-size: 18px !important;
+    letter-spacing: var(--desc-ls);
+    color: var(--kulrang);
+    margin-bottom: 10px;
+}
+
+.welcome-box .welcome-right .years {
+    margin-top: 17.17px;
+    display: flex;
+    padding: 10px 0;
+}
+
+.welcome-box .welcome-right .years .left {
+    width: 198px;
+    height: 220px;
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 39.67px;
+}
+
+.welcome-box .welcome-right .years .left .son {
+    font: 400 80px/88px 'Mulish', sans-serif;
+    letter-spacing: var(--desc-ls);
+    color: var(--sariq-1);
+    margin-bottom: 16px;
+}
+
+.welcome-box .welcome-right .years .left .matn {
+    width: 112px;
+    font: var(--contact-h);
+    letter-spacing: var(--desc-ls);
+    color: var(--darkblue);
+    text-align: center;
+}
+
+.welcome-box .welcome-right .years .right {
+    padding: 17.5px 0;
+}
+
+.welcome-box .welcome-right .years .right .r-item {
+    font: var(--desc-font);
+    letter-spacing: var(--desc-ls);
+    color: var(--kulrang);
+    margin-bottom: 10px;
+}
+
+
+/* welcome end */
