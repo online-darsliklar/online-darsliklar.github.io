@@ -118,6 +118,7 @@ nav.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px 0 20px;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.5);
 }
 
 .navbar .navbar-box .lists {
@@ -306,3 +307,104 @@ nav.navbar {
 
 
 /* welcome end */
+
+
+/* main-services start*/
+
+.main-services {
+    width: 100%;
+    height: 900px;
+    padding-top: 140px;
+    background-color: var(--sariq-1);
+}
+
+.ms-content {
+    text-align: center;
+}
+
+.ms-content>p.desc {
+    max-width: 832px;
+    margin: 0 auto;
+    font: var(--desc-font);
+    letter-spacing: var(--desc-ls);
+    color: var(--darkblue);
+}
+
+.ms-content .buttons {
+    width: 100%;
+    height: 68px;
+    margin: 40px 0 39.64px;
+}
+
+.ms-content .buttons .btn {
+    padding: 19px 41px 19px 85px;
+    color: var(--darkblue);
+    outline: 1px solid var(--darkblue);
+    font: var(--btn-s);
+    background-repeat: no-repeat;
+    background-position: 41px 17px;
+    transition: all 0.3s;
+}
+
+.ms-content .buttons .btn:hover,
+.ms-content .buttons .btn-active {
+    background-color: var(--oq);
+    outline-color: var(--oq);
+}
+
+.ms-content .buttons .btn-1 {
+    background-image: url("../img/commercial.png");
+}
+
+.ms-content .buttons .btn-2 {
+    background-image: url("../img/residential.png");
+    margin: 0 30px;
+}
+
+.ms-content .buttons .btn-3 {
+    background-image: url("../img/industrial.png");
+}
+
+.ms-content .bottom-box {
+    max-width: 1160px;
+    height: 528px;
+    background-color: var(--oq);
+    box-shadow: -1px 6px 18px 0px rgba(0, 0, 0, 0.09);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.ms-content .bottom-box .box-text {
+    text-align: left;
+}
+
+.ms-content .bottom-box .box-text .elec {
+    font: var(--desc-font);
+    color: var(--darkblue);
+    letter-spacing: var(--desc-ls);
+    padding: 0 20px 0 58px;
+    display: inline-block;
+    background: var(--light) url("../img/electrical.png") no-repeat;
+    background-position-x: 20px;
+}
+
+.ms-content .bottom-box .box-text p.desc {
+    font: var(--desc-font);
+    color: var(--kulrang);
+    margin-bottom: 10px;
+    letter-spacing: var(--desc-ls);
+    font-size: 18px !important;
+}
+
+.ms-content .bottom-box .box-text .title+p.desc {
+    width: 507px;
+}
+
+.ms-content .bottom-box .box-text p.desc {
+    width: 549px;
+}
+
+
+/* main-services end*/
