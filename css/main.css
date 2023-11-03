@@ -611,6 +611,7 @@ nav.navbar {
     font: var(--item-title);
     letter-spacing: var(--desc-ls);
     color: var(--darkblue);
+    margin-bottom: 8px;
 }
 
 .why-us .right .r-list .item .item-desc {
@@ -621,3 +622,63 @@ nav.navbar {
 
 
 /* why-us end */
+
+
+/* gallery start */
+
+.gallery {
+    width: 100%;
+    height: 981px;
+    background: var(--darkblue);
+    padding-top: 150px;
+    text-align: center;
+}
+
+.gallery>.title {
+    color: var(--oq);
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 320px;
+    height: 477px;
+    border: 1px solid var(--light-2);
+    background-color: var(--oq);
+    padding: 21px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.card .c-img {
+    margin-bottom: 17px;
+}
+
+.card .c-title {
+    letter-spacing: var(--desc-ls);
+    font: var(--card-title);
+    color: var(--darkblue);
+    margin-bottom: 4px;
+}
+
+.card .c-desc {
+    letter-spacing: var(--desc-ls);
+    font: var(--desc-font);
+    color: var(--kulrang);
+}
+
+.card:nth-child(2) .c-title {
+    width: 221px;
+    margin: auto;
+}
+
+.card:nth-child(2) {
+    height: 514px !important;
+}
+
+
+/* gallery end */
