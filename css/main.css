@@ -638,13 +638,13 @@ nav.navbar {
     color: var(--oq);
 }
 
-.cards {
+.gallery>.cards {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.card {
+.gallery>.cards .card {
     width: 320px;
     height: 477px;
     border: 1px solid var(--light-2);
@@ -654,29 +654,29 @@ nav.navbar {
     text-align: center;
 }
 
-.card .c-img {
+.gallery>.cards .card .c-img {
     margin-bottom: 17px;
 }
 
-.card .c-title {
+.gallery>.cards .card .c-title {
     letter-spacing: var(--desc-ls);
     font: var(--card-title);
     color: var(--darkblue);
     margin-bottom: 4px;
 }
 
-.card .c-desc {
+.gallery>.cards .card .c-desc {
     letter-spacing: var(--desc-ls);
     font: var(--desc-font);
     color: var(--kulrang);
 }
 
-.card:nth-child(2) .c-title {
+.gallery>.cards .card:nth-child(2) .c-title {
     width: 221px;
     margin: auto;
 }
 
-.card:nth-child(2) {
+.gallery>.cards .card:nth-child(2) {
     height: 514px !important;
 }
 
