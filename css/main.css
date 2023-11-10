@@ -694,8 +694,10 @@ section.form {
 
 .form-content {
     width: 100%;
+    height: 947px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .form-content>div .write {
@@ -878,6 +880,23 @@ section.form {
 .form-content .formalar form input[type="submit"] {
     background: var(--sariq-1);
     font-weight: 700;
+}
+
+.mijoz {
+    width: 100%;
+    text-align: center;
+}
+
+.mijoz .write {
+    background-color: var(--light);
+}
+
+.clients {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
 }
 
 
